@@ -3,11 +3,748 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="all.css">
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
 
-<p>hello</p>
+
+
+
+<div class="header_layout">
+    <div class="header">
+        <div class="header_body">
+            <a href="/" class="header_title" title="2 Атмосферы Cеть шиномонтажных мастерских">
+                <span class="header_title-main">
+                    <small>Сеть шиномонтажных мастерских</small><br>
+                    Две Атмосферы
+                </span>
+                <span class="header_title-mobile">
+                     Две Атмосферы<br>
+                    <small>Сеть шиномонтажных <br> мастерских</small>
+                </span>
+
+            </a>
+            <div class="header_conditions">
+                <div class="header_condition header_cards">
+                    <img src="/site/css/images/24hours.png">
+                </div>
+                <div class="header_condition header_phone">
+                    <span>Запись по телефону:</span> <br>
+                    <a href="tel:+78122004390">8 (812) 200-43-90</a>
+                </div>
+            </div>
+
+            <div class="header_records menu_sub">
+                <button class="records_btn yaCounterCatcher" yandex="sign_up_header_cc">Записаться онлайн</button>
+                <ul class="menu_sub-item records_btn-menu">
+                    <li><a id="sign_up_for_tire" class="init_oreder_dialog sign-up-for yaCounterCatcher"
+                           yandex="sign_up_header_tyre_cc" for="tyres" data-type="atmSelf">Шиномонтаж</a></li>
+                    <li><a id="sign_up_for_condition" class="init_oreder_dialog sign-up-for yaCounterCatcher"
+                           yandex="sign_up_header_cond_cc" for="conditioner">Заправка кондиционера</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="main_menu">
+    <ul class="main_menu-body">
+        <li class="with_sub_menu active"><a href="/feature/" class="main_menu-item">Наши услуги</a>
+            <ul class="sub_menu" style="display: none;">
+                <li><a href="/feature/tyre-service/">Шиномонтаж</a></li>
+                <li><a href="/feature/air-conditioners/">Заправка кондиционера</a></li>
+                <!-- li><a href='/feature/car-wash/'>Мойка</a></li -->
+                <li><a href="/feature/argon-welding/">Аргоновая сварка</a></li>
+                <li><a href="/feature/spiking/">Ошиповка колес</a></li>
+                <li><a href="/feature/seasonal-storage/">Сезонное хранение колес</a></li>
+                <li><a href="/feature/repair/">Ремонт шин и дисков</a></li>
+                <li><a href="/feature/wheelpaint/">Покраска дисков</a></li>
+                <li><a href="/feature/headlights-polishin/">Полировка и бронирование фар</a></li>
+                <li><a href="/feature/repair-pvc/">Ремонт изделий из ПВХ</a></li>
+                <li><a href="/feature/tire-pressure-system/">Установка системы контроля давления в шинах</a></li>
+                <li><a href="/feature/microtuning/">Микротюнинг авто</a></li>
+            </ul>
+        </li>
+        <li class="with_sub_menu"><a href="/price.jpg" target="_blank">Цены</a>
+            <ul class="sub_menu">
+                <li>
+                    <a class="no-mobile" href="/price.jpg" target="_blank">Шиномонтаж</a>
+                    <a class="only-mobile" href="/price_mobile.jpg" target="_blank">Шиномонтаж</a>
+                </li>
+                <li><a href="/feature/air-conditioners/">Заправка кондиционеров</a></li>
+                <li><a href="/wp_price.pdf" target="_blank">Покраска дисков</a></li>
+                <li><a href="/loyalty/">Программа лояльности</a></li>
+                <!-- li><a href='/feature/car-wash/'>Мойка</a></li -->
+            </ul>
+        </li>
+        <li><a href="/address/" class="main_menu-item">Наши адреса</a></li>
+        <li class="bright"><a href="/offers/" class="main_menu-item">Акции</a></li>
+        <li class="with_sub_menu">
+            <a href="/products/tyres/" class="main_menu-item">Интернет-Магазин шин</a>
+            <ul class="sub_menu">
+                <li><a href="/products/tyres/">Купить шины</a></li>
+                <li><a href="/delivery/">Информация</a></li>
+                <!--<li><a href='/rasshirennaya_garantiya/'>Расширенная гарантия</a></li>-->
+            </ul>
+        </li>
+        <li class=""><a class="main_menu-item link-reviews" href="/#reviews">Отзывы</a></li>
+        <li><a href="/news/" class="main_menu-item">Новости</a></li>
+        <li class="main_menu_right">
+            <!--<div class='basket'>
+    <span>Корзина</span>
+    <a href="/basket/" class="b_href">0</a>
+    <span class="b_sum"></span>
+</div>-->
+
+            <div class="basket">
+                <a href="/basket/" class="b_href">Корзина <span class="b_href-0">0</span></a>
+            </div>
+
+        </li>
+
+
+        <li class="main_menu_right">
+            <a href="/users/logout/" class="logout">Выход</a>
+        </li>
+        <li class="main_menu_right">
+            <a href="/profile/" class="profile"><span>Личный кабинет</span></a>
+        </li>
+
+    </ul>
+    <div class="main_menu-body-mobile main_menu-mobile">
+        <div class="short_menu">
+            <div class="short_menu-btn burger-btn">
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <ul class="short_menu-list">
+                <li class="short_menu-item">
+                    <a href="/">Главная</a>
+                </li>
+                <li class="short_menu-item short_menu-sub current" data-href="/feature">
+                    <span>Наши услуги</span>
+                    <ul class="short_menu-sub_list">
+                        <li><a href="/feature/tyre-service/">Шиномонтаж</a></li>
+                        <li><a href="/feature/air-conditioners/">Заправка кондиционера</a></li>
+                        <li><a href="/feature/argon-welding/">Аргоновая сварка</a></li>
+                        <li><a href="/feature/spiking/">Ошиповка колес</a></li>
+                        <li><a href="/feature/seasonal-storage/">Сезонное хранение колес</a></li>
+                        <li><a href="/feature/repair/">Ремонт шин и дисков</a></li>
+                        <li><a href="/feature/wheelpaint/">Покраска дисков</a></li>
+                        <li><a href="/feature/headlights-polishin/">Полировка и бронирование фар</a></li>
+                        <li><a href="/feature/repair-pvc/">Ремонт изделий из ПВХ</a></li>
+                        <li><a href="/feature/tire-pressure-system/">Установка системы контроля давления в шинах</a>
+                        </li>
+                        <li><a href="/feature/microtuning/">Микротюнинг авто</a></li>
+                    </ul>
+                </li>
+                <li class="short_menu-item short_menu-sub">
+                    <span>Цены</span>
+                    <ul class="short_menu-sub_list">
+                        <li>
+                            <a class="no-mobile" href="/price.jpg" target="_blank">Шиномонтаж</a>
+                            <a class="only-mobile" href="/price_mobile.jpg" target="_blank">Шиномонтаж</a>
+                        </li>
+                        <li><a href="/feature/air-conditioners/">Заправка кондиционеров</a></li>
+                        <li><a href="/wp_price.pdf" target="_blank">Покраска дисков</a></li>
+                        <li><a href="/loyalty/">Программа лояльности</a></li>
+                    </ul>
+                </li>
+                <li class="short_menu-item" data-href="/address">
+                    <a href="/address/">Наши адреса</a>
+                </li>
+                <li class="short_menu-item" data-href="/offers">
+                    <a href="/offers/">Акции</a>
+                </li>
+                <li class="short_menu-item short_menu-sub" data-href="/products">
+                    <span>Интернет-Магазин шин</span>
+                    <ul class="short_menu-sub_list">
+                        <li><a href="/products/tyres/">Купить шины</a></li>
+                        <li><a href="/delivery/">Информация</a></li>
+                        <!--<li><a href='/rasshirennaya_garantiya/'>Расширенная гарантия</a></li>-->
+                    </ul>
+                </li>
+                <li class="short_menu-item"><a class="link-reviews" href="/#reviews">Отзывы</a></li>
+                <li class="short_menu-item" data-href="/news"><a href="/news/">Новости</a></li>
+                <li class="short_menu-item">
+                    <!--<div class='basket'>
+    <span>Корзина</span>
+    <a href="/basket/" class="b_href">0</a>
+    <span class="b_sum"></span>
+</div>-->
+
+                    <div class="basket">
+                        <a href="/basket/" class="b_href">Корзина <span class="b_href-0">0</span></a>
+                    </div>
+
+                </li>
+
+
+                <li class="short_menu-item" data-href="/profile">
+                    <a href="/profile/" class="profile">Личный кабинет</a>
+                </li>
+                <li class="short_menu-item">
+                    <a href="/users/logout/" class="logout">Выход</a>
+                </li>
+
+
+            </ul>
+        </div>
+        <div class="main_menu-records-block">
+            <div class="main_menu-records menu_sub">
+                <button class="records_btn yaCounterCatcher" yandex="sign_up_header_cc">Записаться онлайн</button>
+                <ul class="menu_sub-item records_btn-menu">
+                    <li><a id="sign_up_for_tire" class="init_oreder_dialog sign-up-for yaCounterCatcher"
+                           yandex="sign_up_header_tyre_cc" for="tyres" data-type="atmSelf">Шиномонтаж</a></li>
+                    <li><a id="sign_up_for_condition" class="init_oreder_dialog sign-up-for yaCounterCatcher"
+                           yandex="sign_up_header_cond_cc" for="tyres">Заправка кондиционера</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="short_menu short_menu-right">
+            <div class="short_menu-btn phone-btn">
+                <span class="icon-phone"></span>
+            </div>
+            <ul class="short_menu-list">
+                <li class="short_menu-item">
+                    <a href="tel:+78122004390">8 (812) 200-43-90</a>
+                </li>
+                <li class="short_menu-item">
+                    <a href="tel:+7(812)648-12-48">Интернет-магазин шин</a>
+                </li>
+            </ul>
+        </div>
+        <ul class="main_menu_right-block">
+            <li class="main_menu_right">
+                <!--<div class='basket'>
+    <span>Корзина</span>
+    <a href="/basket/" class="b_href">0</a>
+    <span class="b_sum"></span>
+</div>-->
+
+                <div class="basket">
+                    <a href="/basket/" class="b_href">Корзина <span class="b_href-0">0</span></a>
+                </div>
+
+            </li>
+
+
+            <li class="main_menu_right">
+                <a href="/users/logout/" class="logout">Выход</a>
+            </li>
+            <li class="main_menu_right">
+                <a href="/profile/" class="profile"><span>Личный кабинет</span></a>
+            </li>
+
+        </ul>
+    </div>
+</div>
+<div class="main_menu-fixed menu_fixed">
+    <div class="menu_fixed-body">
+        <div class="short_menu">
+            <div class="short_menu-btn">
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <span>Меню</span>
+            </div>
+            <ul class="short_menu-list">
+                <li class="short_menu-item short_menu-sub">
+                    <span>Наши услуги</span>
+                    <ul class="short_menu-sub_list">
+                        <li><a href="/feature/tyre-service/">Шиномонтаж</a></li>
+                        <li><a href="/feature/air-conditioners/">Заправка кондиционера</a></li>
+                        <li><a href="/feature/argon-welding/">Аргоновая сварка</a></li>
+                        <li><a href="/feature/spiking/">Ошиповка колес</a></li>
+                        <li><a href="/feature/seasonal-storage/">Сезонное хранение колес</a></li>
+                        <li><a href="/feature/repair/">Ремонт шин и дисков</a></li>
+                        <li><a href="/feature/wheelpaint/">Покраска дисков</a></li>
+                        <li><a href="/feature/headlights-polishin/">Полировка и бронирование фар</a></li>
+                        <li><a href="/feature/repair-pvc/">Ремонт изделий из ПВХ</a></li>
+                        <li><a href="/feature/tire-pressure-system/">Установка системы контроля давления в шинах</a>
+                        </li>
+                        <li><a href="/feature/microtuning/">Микротюнинг авто</a></li>
+                    </ul>
+                </li>
+                <li class="short_menu-item short_menu-sub">
+                    <span>Цена</span>
+                    <ul class="short_menu-sub_list">
+                        <li>
+                            <a class="no-mobile" href="/price.jpg" target="_blank">Шиномонтаж</a>
+                            <a class="only-mobile" href="/price_mobile.jpg" target="_blank">Шиномонтаж</a>
+                        </li>
+                        <li><a href="/feature/air-conditioners/">Заправка кондиционеров</a></li>
+                        <li><a href="/wp_price.pdf" target="_blank">Покраска дисков</a></li>
+                    </ul>
+                </li>
+                <li class="short_menu-item">
+                    <a href="/address/">Наши адреса</a>
+                </li>
+                <li class="short_menu-item">
+                    <a href="/offers/">Акции</a>
+                </li>
+                <li class="short_menu-item short_menu-sub">
+                    <span>Интернет-Магазин шин</span>
+                    <ul class="short_menu-sub_list">
+                        <li><a href="/products/tyres/">Купить шины</a></li>
+                        <li><a href="/delivery/">Информация</a></li>
+                        <!--<li><a href='/rasshirennaya_garantiya/'>Расширенная гарантия</a></li>-->
+                    </ul>
+                </li>
+                <li class="short_menu-item"><a class="link-reviews" href="/#reviews">Отзывы</a></li>
+                <li class="short_menu-item"><a href="/news/">Новости</a></li>
+
+
+                <li class="short_menu-item short_menu-footer">
+                    <a href="/profile/" class="profile">Личный кабинет</a>
+                </li>
+                <li class="short_menu-item">
+                    <a href="/users/logout/" class="logout">Выход</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="menu_fixed-logo">
+            <a href="/">Две Атмосферы</a>
+        </div>
+        <div class="menu_fixed-basket">
+            <!--<div class='basket'>
+    <span>Корзина</span>
+    <a href="/basket/" class="b_href">0</a>
+    <span class="b_sum"></span>
+</div>-->
+
+            <div class="basket">
+                <a href="/basket/" class="b_href">Корзина <span class="b_href-0">0</span></a>
+            </div>
+
+        </div>
+        <div class="menu_fixed-phone">
+            <a href="tel:+78122004390">8 (812) 200-43-90</a>
+        </div>
+        <div class="menu_fixed-records menu_sub">
+            <button class="records_btn yaCounterCatcher" yandex="sign_up_header_cc">Записаться онлайн</button>
+            <ul class="menu_sub-item records_btn-menu">
+                <li><a id="sign_up_for_tire" class="init_oreder_dialog sign-up-for yaCounterCatcher"
+                       yandex="sign_up_header_tyre_cc" for="tyres" data-type="atmSelf">Шиномонтаж</a></li>
+                <li><a id="sign_up_for_condition" class="init_oreder_dialog sign-up-for yaCounterCatcher"
+                       yandex="sign_up_header_cond_cc" for="conditioner">Заправка кондиционера</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="layout">
+    <div class="main_layout_shadowed">
+        <div class="main_layout">
+            <div class="layout">
+                <!--frg shop/shop.panel-->
+
+
+                <div class="content features">
+                    <h1>Ошиповка шин</h1>
+                </div>
+
+
+                <style type="text/css">
+                </style>
+
+
+                <div class="content features feature-page spiking-page">
+
+                    <div class="first_block">
+
+                        <img src="https://2atm.ru/site/images/features/spiking/rubber.png"
+                             alt="Какая резина подходит для ошиповки">
+
+                        <h2>
+                            Протектор остался, а шипы нет?
+                            <br>
+                            Ошиповка шин 20 руб./шип
+                        </h2>
+
+                        <h3>Дешевле чем новые шины!</h3>
+
+                        <div class="center">
+                            <p>В среднем на колеса размером R16 - 110 шипов, R18 - 130 шипов</p>
+                            <p>Среднее количество восстанавливаемых шипов на автомобиль - 80</p>
+                        </div>
+
+                        <a href="#" class="btn_order">Записаться</a>
+
+                    </div>
+
+                    <div class="second_block">
+
+                        <h2>Почему необходимо ошиповать ваши колеса?</h2>
+                        <img src="https://2atm.ru/site/images/features/spiking/main.png" alt="ошиповка шин">
+                        <p class="strong">Это новая технология безопасности на дороге.</p>
+                        <p>Шипованные шины имеют много преимуществ: придают автомобилю неплохую управляемость, сокращают
+                            тормозной путь на скользком покрытии, практически исключают заносы на поворотах.</p>
+cd
+                    </div>
+
+                    <div class="third_block">
+
+                        <h4>Как происходит процесс ошиповки</h4>
+                        <img src="https://2atm.ru/site/images/features/spiking/infograph.png" alt="процесс ошиповки">
+
+                    </div>
+
+                    <div class="fourth_block">
+
+                        <h2>Мы сняли для вас шикарное slow mo ошиповки шин</h2>
+                        <div class="video"></div>
+<!--                        <video>-->
+<!--                            <source src="https://2atm.ru/site/images/features/spiking/spiking-video.mp4"-->
+<!--                                    controls="controls">-->
+<!--                        </video>-->
+
+                    </div>
+
+                    <div class="fifth_block">
+
+                        <div class="image_block">
+                            <img src="https://2atm.ru/site/images/features/spiking/rubber.png"
+                                 alt="Какая резина подходит для ошиповки">
+                        </div>
+
+                        <div class="text_block">
+                            <p class="strong">Какая резина подходит для ошиповки?</p>
+                            <p>Для ошиповки шин в сети мастерских "Две атмосферы" подходят шины с предусмотренными конструкцией покрышек отверстиями и остаточной высотой протектора 7 мм.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="sixth_block">
+
+                        <h2>Условия гарантии на ошиповку колес:</h2>
+
+                        <div class="flex_block">
+                            <div class="image_block">
+                                <img src="https://2atm.ru/site/images/features/spiking/safety.png" alt="Гарантия">
+                            </div>
+                            <div class="text_block">
+
+                                <div class="list_item">
+                                    <div class="list_image">
+                                        <img src="https://2atm.ru/site/images/features/spiking/check_icon.png" alt="V">
+                                    </div>
+                                    <div class="list_text">
+                                        <p class="strong">Гарантия на ошиповку действует 3 месяца.</p>
+                                        <p>Для увеличения срока эксплуатации установленных шипов необходимо избегать резких ускорений и торможений в течение 100км с момента установки шипов.</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="list_item">
+                                    <div class="list_image">
+                                        <img src="https://2atm.ru/site/images/features/spiking/check_icon.png" alt="V">
+                                    </div>
+                                    <div class="list_text">
+                                        <p class="strong">Гарантийным случаем считается утрата более 10% установленных шипов.</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="list_item">
+                                    <div class="list_image">
+                                        <img src="https://2atm.ru/site/images/features/spiking/check_icon.png" alt="V">
+                                    </div>
+                                    <div class="list_text">
+                                        <p class="strong">Гарантия на ошиповку не распространяется при остаточной глубине протектора 7мм и ниже.</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="list_item">
+                                    <div class="list_image">
+                                        <img src="https://2atm.ru/site/images/features/spiking/check_icon.png" alt="V" style="float:left">
+                                    </div>
+                                    <div class="list_text">
+                                        <p class="strong">Сохраняйте чек на проведенную ошиповку весь гарантийный срок</p>
+                                    </div>
+
+                                </div>
+
+
+
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="seventh_block">
+
+                        <h2>Уровень качества ошиповки можно проверить самостоятельно!</h2>
+                        <p>1. Высота протектора на момент ошиповки должна совпадать с общей высотой шипов.</p>
+                        <img src="https://2atm.ru/site/images/features/spiking/table.png" alt="Таблица высот протектора">
+
+                        <p>2. Не должно быть допущено возвышения корпуса шипа над поверхностью протектора.</p>
+                        <img src="https://2atm.ru/site/images/features/spiking/elevation_type.png"
+                             alt="Пример возвышения шипа над поверхностью протектора">
+
+
+                        <p>3. Шип не должен быть установлен по отношению к поверхности протектора строго
+                            перпендикулярно.</p>
+
+                    </div>
+
+                    <div class="eighth_block">
+
+                        <div class="image_block">
+                            <img src="https://2atm.ru/site/images/features/spiking/spike.png" alt="Структура шипа">
+                        </div>
+
+                        <div class="text_block">
+                            <p class="strong">Что такое технологический ремонтный шип?</p>
+                            <p>Многофланцевый шип отличается увеличенным сроком службы и лучшими характеристиками сцепления с
+                                дорогой, особенно если автолюбитель предпочитает более агрессивную манеру езды - резкие старты,
+                                частое и активное торможение. Именно такой тип шипов используется как для ошиповки в сети
+                                шиномонтажных мастерских "Две атмосферы".</p>
+                        </div>
+
+                    </div>
+
+                    <div class="ninth_block">
+
+                        <img src="https://2atm.ru/site/images/features/spiking/spiking.png" alt="Ошиповка">
+                        <p class="strong">Как определить что резине нужна ошиповка?</p>
+                        <p>Если у вас уже есть шипованные колеса, но за сезон выпало более 20% шипов, то дальнейшая эксплуатация автомобиля в зимнее время просто опасна. В случае, если шина имеет высоту протектора более 7мм ее можно ошиповать.</p>
+
+                    </div>
+
+                    <div class="tenth_block">
+
+                        <h2>Сделать свой автомобиль безопаснее вы можете абсолютно в любое время,
+                            поскольку для вас мы работаем 24 часа в сутки 7 дней в неделю.</h2>
+                        <h3>Вернуть ошиповку и безопасность можно в среднем за 1000 руб.</h3>
+                        <a href="#" class="btn_order">Записаться</a>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="service_block page_block">
+                    <div class="title">
+                        <span class="title-line"></span>
+                        <h2>Представляем широкий спектр услуг</h2>
+                    </div>
+                    <div class="service_block-header">
+                        <div class="dropdown_btn">
+                            <ul class="dropdown_btn-block">
+                                <li class="opensub">
+                                    <a class="gc_button opensub bold">
+                                        <span class="service_block-header-btn">Посмотреть полный прайс-лист</span>
+                                        <span class="service_block-header-btn-mobile">Посмотреть прайс-лист</span>
+                                    </a>
+                                    <ul class="dropdown_btn-body">
+                                        <li>
+                                            <a class="gc_button no-mobile" href="/price.jpg"
+                                               target="_blank">Шиномонтаж</a>
+                                            <a class="gc_button only-mobile" href="/price_mobile.jpg" target="_blank">Шиномонтаж</a>
+                                        </li>
+                                        <li><a class="gc_button" href="/feature/air-conditioners/">Заправка
+                                            кондиционера</a></li>
+                                        <li><a class="gc_button" href="/wp_price.pdf" target="_blank">Покраска
+                                            дисков</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="/offers/" class="icon-offers">
+                            Следите за обновлениями в разделе <span class="brand-link">Акции</span>.</a>
+                        <a href="/loyalty/" class="icon-card">С <span
+                                class="brand-link">Картой постоянного клиента</span> цены ещё ниже!</a>
+                    </div>
+                    <ul class="service_icons">
+                        <li class="service_icon">
+                            <a href="/feature/tyre-service/">
+                                <img src="/site/images/icns/shin_sq.png" class="service_icon-img">
+                                <div class="service_icon-desc">
+                                    <span class="service_icon-name">Шиномонтаж</span>
+                                    <span class="service_icon-price">от 990 ₽</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="service_icon">
+                            <a href="/feature/argon-welding/">
+                                <img src="/site/images/icns/argon_sq.png" class="service_icon-img">
+                                <div class="service_icon-desc">
+                                    <span class="service_icon-name">АРГОНОВАЯ СВАРКА</span>
+                                    <span class="service_icon-price">300 ₽ за 1 см</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="service_icon">
+                            <a href="/feature/spiking/">
+                                <img src="/site/images/icns/ship_sq.png" class="service_icon-img">
+                                <div class="service_icon-desc">
+                                    <span class="service_icon-name">ОШИПОВКА КОЛЕС</span>
+                                    <span class="service_icon-price">20 ₽ за 1 шип</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="service_icon">
+                            <a href="/feature/wheelpaint/">
+                                <img src="/site/images/icns/rest_sq.png" class="service_icon-img">
+                                <div class="service_icon-desc">
+                                    <span class="service_icon-name">ПОКРАСКА ДИСКОВ</span>
+                                    <span class="service_icon-price">от 1 500 ₽</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="service_icon">
+                            <a href="/feature/air-conditioners/">
+                                <img src="/site/images/icns/cond_sq.png" class="service_icon-img">
+                                <div class="service_icon-desc">
+                                    <span class="service_icon-name">Заправка кондиционера</span>
+                                    <span class="service_icon-price">1999 ₽</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="service_icon">
+                            <a href="/feature/seasonal-storage/">
+                                <img src="/site/images/icns/store_sq.png" class="service_icon-img">
+                                <div class="service_icon-desc">
+                                    <span class="service_icon-name">СЕЗОННОЕ ХРАНЕНИЕ КОЛЕС</span>
+                                    <span class="service_icon-price">3 000 ₽</span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="service_icon">
+                            <a href="/feature/repair/">
+                                <img src="/site/images/icns/remont_sq.png" class="service_icon-img">
+                                <div class="service_icon-desc">
+                                    <span class="service_icon-name">РЕМОНТ ШИН И&nbsp;ДИСКОВ</span>
+                                    <span class="service_icon-price">от 250 ₽</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="service_icon">
+                            <a href="/feature/headlights-polishin/">
+                                <img src="/site/images/icns/polish_sq.png" class="service_icon-img">
+                                <div class="service_icon-desc">
+                                    <span class="service_icon-name">ПОЛИРОВКА И БРОНИРОВАНИЕ ФАР</span>
+                                    <span class="service_icon-price">1 999 ₽</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="service_icon">
+                            <a href="/feature/repair-pvc/">
+                                <img src="/site/images/icns/repair_pvc_sq.png" class="service_icon-img">
+                                <div class="service_icon-desc">
+                                    <span class="service_icon-name">РЕМОНТ ИЗДЕЛИЙ ИЗ&nbsp;ПВХ</span>
+                                    <span class="service_icon-price">от 150 ₽</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="service_icon">
+                            <a href="/feature/tire-pressure-system/">
+                                <img src="/site/images/icns/tire_pressure_system.jpg" class="service_icon-img">
+                                <div class="service_icon-desc">
+                                    <span class="service_icon-name">УСТАНОВКА СИСТЕМЫ КОНТРОЛЯ ДАВЛЕНИЯ В ШИНАХ</span>
+                                    <span class="service_icon-price">от 4 900 ₽</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="service_icon">
+                            <a href="/feature/microtuning/">
+                                <img src="/site/images/icns/microtuning.png" class="service_icon-img">
+                                <div class="service_icon-desc">
+                                    <span class="service_icon-name">МИКРОТЮНИНГ АВТО</span>
+                                    <span class="service_icon-price">от 500 ₽</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="footer page_block page_block-grey">
+                    <div class="footer-block">
+                        <div class="footer-info">
+                            <a href="/" class="header_title" title="2 Атмосферы Cеть шиномонтажных мастерских">
+                <span class="header_title-main">
+                    <small>Сеть шиномонтажных мастерских</small><br>
+                    Две Атмосферы
+                </span>
+                            </a>
+                            <p>
+                                Если вы внимательно проследите за работой специалистов в других мастерских,
+                                то наверняка заметите, что многие кидают колесные болты и гайки на землю.
+                                Мы их бережно складываем на специальные магнитные тарелочки. Скажете мелочь?
+                                Но в таких мелочах и прослеживается отношение к работе и клиентам.
+                            </p>
+                        </div>
+                        <div class="footer_menu">
+                            <div class="footer_menu-col">
+                                <a href="/feature/" class="footer_menu-main-link">Наши услуги</a>
+                                <ul class="sub_menu">
+                                    <li><a href="/feature/tyre-service/">Шиномонтаж</a></li>
+                                    <li><a href="/feature/air-conditioners/">Заправка кондиционеров</a></li>
+                                    <li><a href="/feature/argon-welding/">Аргоновая сварка</a></li>
+                                    <li><a href="/feature/spiking/">Ошиповка колес</a></li>
+                                    <li><a href="/feature/seasonal-storage/">Сезонное хранение колес</a></li>
+                                    <li><a href="/feature/repair/">Ремонт шин и дисков</a></li>
+                                    <li><a href="/feature/restoration/">Реставрация дисков</a></li>
+                                    <li><a href="/feature/headlights-polishin/">Полировка и бронирование фар</a></li>
+                                    <li><a href="/feature/repair-pvc/">Ремонт изделий из ПВХ</a></li>
+                                    <li><a href="/feature/tire-pressure-system/">Установка системы контроля давления в
+                                        шинах</a></li>
+                                    <li><a href="/feature/microtuning/">Микротюнинг авто</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer_menu-col">
+                                <a href="/price.jpg" target="_blank" class="footer_menu-main-link">Цены</a>
+                                <ul class="sub_menu">
+                                    <li>
+                                        <a class="no-mobile" href="/price.jpg" target="_blank">Шиномонтаж</a>
+                                        <a class="only-mobile" href="/price_mobile.jpg" target="_blank">Шиномонтаж</a>
+                                    </li>
+                                    <li><a href="/feature/air-conditioners/">Заправка кондиционера</a></li>
+                                    <li><a href="/wp_price.pdf" target="_blank">Покраска дисков</a></li>
+                                    <li><a href="/loyalty/">Программа лояльности</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer_menu-col">
+                                <a href="/address/" class="footer_menu-main-link">Наши адреса</a>
+                                <a href="/offers/" class="footer_menu-main-link">Акции</a>
+                                <a href="/products/tyres/" class="footer_menu-main-link">Интернет-Магазин шин</a>
+                                <a class="footer_menu-main-link link-reviews" href="/#reviews">Отзывы</a>
+                                <a href="/news/" class="footer_menu-main-link">Новости</a>
+                                <a href="/contacts/" class="footer_menu-main-link">Контакты</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <span class="footer_copyright">© 2019 Две атмосферы</span>
+                </div>
+
+            </div>
+            <div class="arrow_up"></div>
+        </div>
+    </div>
+
+</div>
+
+<div class="background"></div>
+
+
 
 </body>
 </html>

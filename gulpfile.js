@@ -40,7 +40,7 @@ function watch() {
     gulp.watch(scripts.src, gulp.parallel('scripts'));
     gulp.watch(styles.src, gulp.parallel(browserSync.reload));
     gulp.watch(scripts.dest, gulp.parallel(browserSync.reload));
-    gulp.watch('./*.php', gulp.parallel(browserSync.reload));
+    gulp.watch('index.html', gulp.parallel(browserSync.reload));
 }
 
 gulp.task('default', watch);
