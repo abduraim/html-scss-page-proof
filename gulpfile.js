@@ -38,9 +38,9 @@ function watch() {
     browserSync.init({proxy: 'html-scss-page-proof.local/'});
     gulp.watch(styles.src, gulp.parallel('scss'));
     gulp.watch(scripts.src, gulp.parallel('scripts'));
-    gulp.watch(styles.src, gulp.parallel(browserSync.reload));
-    gulp.watch(scripts.dest, gulp.parallel(browserSync.reload));
-    gulp.watch('index.html', gulp.parallel(browserSync.reload));
+    gulp.watch(styles.dest).on('change', browserSync.reload);
+    gulp.watch(scripts.dest).on('change', browserSync.reload);
+    gulp.watch('index.html').on('change', browserSync.reload);
 }
 
 gulp.task('default', watch);
